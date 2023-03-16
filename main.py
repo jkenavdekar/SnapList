@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import openai
-openai.api_key = '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'
+openai.api_key = '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'
 
 def listing(title):
     response1 = openai.Completion.create(
